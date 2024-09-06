@@ -5,7 +5,6 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: sustainable-materials-app    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: '.'                  # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '8.0.x'                         # set this to the .NET version to use
 
 jobs:
@@ -25,18 +24,9 @@ jobs:
     - name: dotnet publish
       run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
-    - name: Install Azure CLI
-      run: |
-        Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi
-        Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'
-        rm .\AzureCLI.msi
-
-    - name: Generate deployment script
-      run: |
-        echo "${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}" > publish_profile.xml
-        az login --service-principal -u "http://${{ env.AZURE_WEBAPP_NAME }}" -p "${{ secrets.AZURE_WEBAPP_PUBLISH_PASSWORD }}" --tenant "${{ secrets.AZURE_TENANT_ID }}"
-        az webapp deployment source config-zip --resource-group "${{ secrets.AZURE_RESOURCE_GROUP }}" --name "${{ env.AZURE_WEBAPP_NAME }}" --src "${{env.DOTNET_ROOT}}/myapp"
-
     - name: Deploy to Azure Web App
-      run: |
-        az webapp deployment source config-zip --resource-group "${{ secrets.AZURE_RESOURCE_GROUP }}" --name "${{ env.AZURE_WEBAPP_NAME }}" --src "${{env.DOTNET_ROOT}}/myapp"
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE  }}
+        package: ${{env.DOTNET_ROOT}}/myapp
