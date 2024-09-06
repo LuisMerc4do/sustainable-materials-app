@@ -1,0 +1,17 @@
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\bin\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.deps.json
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\bin\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\bin\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.pdb
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\bin\Debug\net8.0\SustainableMaterialsRecommender.Application.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\bin\Debug\net8.0\SustainableMaterialsRecommender.Domain.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\bin\Debug\net8.0\SustainableMaterialsRecommender.Domain.pdb
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\bin\Debug\net8.0\SustainableMaterialsRecommender.Application.pdb
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.AssemblyInfo.cs
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\Sustaina.0F8D1B88.Up2Date
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\refint\SustainableMaterialsRecommender.Infrastructure.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\SustainableMaterialsRecommender.Infrastructure.pdb
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Infrastructure\obj\Debug\net8.0\ref\SustainableMaterialsRecommender.Infrastructure.dll

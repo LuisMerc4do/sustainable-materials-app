@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SustainableMaterialsRecommender.API", "SustainableMaterialsRecommender.API\SustainableMaterialsRecommender.API.csproj", "{0A62CD26-AA21-49AA-A51F-723947AE67AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SustainableMaterialsRecommender.Application", "SustainableMaterialsRecommender.Application\SustainableMaterialsRecommender.Application.csproj", "{AAB8CEE5-8E1D-48B9-A4AB-77B97F29185C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SustainableMaterialsRecommender.Domain", "SustainableMaterialsRecommender.Domain\SustainableMaterialsRecommender.Domain.csproj", "{D272C5A9-098F-4218-9E8C-AECB6037B4C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SustainableMaterialsRecommender.Infrastructure", "SustainableMaterialsRecommender.Infrastructure\SustainableMaterialsRecommender.Infrastructure.csproj", "{14DCDB73-812D-42CA-B8E1-71DC9B48E36F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SustainableMaterialsRecommender.UnitTests", "SustainableMaterialsRecommender.UnitTests\SustainableMaterialsRecommender.UnitTests.csproj", "{2F1CCABA-86CC-4035-8FBE-D1B7DCD96338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A62CD26-AA21-49AA-A51F-723947AE67AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A62CD26-AA21-49AA-A51F-723947AE67AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A62CD26-AA21-49AA-A51F-723947AE67AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A62CD26-AA21-49AA-A51F-723947AE67AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB8CEE5-8E1D-48B9-A4AB-77B97F29185C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB8CEE5-8E1D-48B9-A4AB-77B97F29185C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB8CEE5-8E1D-48B9-A4AB-77B97F29185C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB8CEE5-8E1D-48B9-A4AB-77B97F29185C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D272C5A9-098F-4218-9E8C-AECB6037B4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D272C5A9-098F-4218-9E8C-AECB6037B4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D272C5A9-098F-4218-9E8C-AECB6037B4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D272C5A9-098F-4218-9E8C-AECB6037B4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DCDB73-812D-42CA-B8E1-71DC9B48E36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DCDB73-812D-42CA-B8E1-71DC9B48E36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DCDB73-812D-42CA-B8E1-71DC9B48E36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DCDB73-812D-42CA-B8E1-71DC9B48E36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1CCABA-86CC-4035-8FBE-D1B7DCD96338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1CCABA-86CC-4035-8FBE-D1B7DCD96338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1CCABA-86CC-4035-8FBE-D1B7DCD96338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1CCABA-86CC-4035-8FBE-D1B7DCD96338}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

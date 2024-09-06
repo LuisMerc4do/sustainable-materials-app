@@ -1,0 +1,11 @@
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\bin\Debug\net8.0\SustainableMaterialsRecommender.Domain.deps.json
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\bin\Debug\net8.0\SustainableMaterialsRecommender.Domain.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\bin\Debug\net8.0\SustainableMaterialsRecommender.Domain.pdb
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\obj\Debug\net8.0\SustainableMaterialsRecommender.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\obj\Debug\net8.0\SustainableMaterialsRecommender.Domain.AssemblyInfoInputs.cache
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\obj\Debug\net8.0\SustainableMaterialsRecommender.Domain.AssemblyInfo.cs
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\obj\Debug\net8.0\SustainableMaterialsRecommender.Domain.csproj.CoreCompileInputs.cache
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\obj\Debug\net8.0\SustainableMaterialsRecommender.Domain.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\obj\Debug\net8.0\refint\SustainableMaterialsRecommender.Domain.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\obj\Debug\net8.0\SustainableMaterialsRecommender.Domain.pdb
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Domain\obj\Debug\net8.0\ref\SustainableMaterialsRecommender.Domain.dll
