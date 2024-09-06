@@ -56,6 +56,8 @@ builder.Services.AddScoped<IMaterialRepository, MaterialRepository>();
 builder.Services.AddScoped<IMaterialService, MaterialService>();
 builder.Services.AddScoped<ICachingService, CachingService>();
 
+// Add Application Insights
+builder.Services.AddApplicationInsightsTelemetry();
 
 var app = builder.Build();
 
