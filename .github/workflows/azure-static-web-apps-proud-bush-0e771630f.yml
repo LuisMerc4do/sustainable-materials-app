@@ -31,9 +31,7 @@ jobs:
           npm install axios
 
       - name: Build
-        run: npm run build
-        env:
-          CI: false # This allows the build to continue even if there are warnings
+        run: CI=false npm run build
 
       - name: Build And Deploy
         id: builddeploy
