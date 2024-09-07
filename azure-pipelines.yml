@@ -1,0 +1,56 @@
+trigger:
+  - main
+
+variables:
+  solution: "**/*.sln"
+  buildPlatform: "Any CPU"
+  buildConfiguration: "Release"
+  webAppName: "sustainable-materials-app"
+
+stages:
+  - stage: Build
+    jobs:
+      - job: Build
+        pool:
+          vmImage: "windows-latest"
+
+        steps:
+          - task: NuGetToolInstaller@1
+
+          - task: NuGetCommand@2
+            inputs:
+              restoreSolution: "$(solution)"
+
+          - task: VSBuild@1
+            inputs:
+              solution: "$(solution)"
+              msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
+              platform: "$(buildPlatform)"
+              configuration: "$(buildConfiguration)"
+
+          - task: VSTest@2
+            inputs:
+              platform: "$(buildPlatform)"
+              configuration: "$(buildConfiguration)"
+
+          - task: PublishBuildArtifacts@1
+            inputs:
+              pathToPublish: "$(Build.ArtifactStagingDirectory)"
+              artifactName: "drop"
+
+  - stage: Deploy
+    jobs:
+      - deployment: DeployToAzure
+        pool:
+          vmImage: "windows-latest"
+        environment: "production"
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: AzureWebApp@1
+                  inputs:
+                    azureSubscription: "Your-Azure-Subscription-Connection"
+                    appName: "$(webAppName)"
+                    package: "$(Pipeline.Workspace)/drop/**/*.zip"
+                    appType: "webApp"

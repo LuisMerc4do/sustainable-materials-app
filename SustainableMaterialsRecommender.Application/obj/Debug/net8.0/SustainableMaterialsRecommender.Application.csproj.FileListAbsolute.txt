@@ -1,0 +1,15 @@
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\bin\Debug\net8.0\SustainableMaterialsRecommender.Application.deps.json
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\bin\Debug\net8.0\SustainableMaterialsRecommender.Application.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\bin\Debug\net8.0\SustainableMaterialsRecommender.Application.pdb
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\bin\Debug\net8.0\SustainableMaterialsRecommender.Core.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\bin\Debug\net8.0\SustainableMaterialsRecommender.Core.pdb
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\SustainableMaterialsRecommender.Application.csproj.AssemblyReference.cache
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\SustainableMaterialsRecommender.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\SustainableMaterialsRecommender.Application.AssemblyInfoInputs.cache
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\SustainableMaterialsRecommender.Application.AssemblyInfo.cs
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\SustainableMaterialsRecommender.Application.csproj.CoreCompileInputs.cache
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\Sustaina.8EDB2907.Up2Date
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\SustainableMaterialsRecommender.Application.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\refint\SustainableMaterialsRecommender.Application.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\SustainableMaterialsRecommender.Application.pdb
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\ref\SustainableMaterialsRecommender.Application.dll

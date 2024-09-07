@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0jCeUZ8fljYoqLZUnvrADyTR1d1Iuv2D5eIauJAx/Fs=",
+  "Source": "SustainableMaterialsRecommender.API",
+  "BasePath": "_content/SustainableMaterialsRecommender.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

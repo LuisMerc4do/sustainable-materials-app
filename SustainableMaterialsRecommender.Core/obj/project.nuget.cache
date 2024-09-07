@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+PkA0fwrUVI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\skill\\source\\repos\\aisustainablematerials\\SustainableMaterialsRecommender.Core\\SustainableMaterialsRecommender.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skill\\.nuget\\packages\\serilog\\4.0.2-dev-02226\\serilog.4.0.2-dev-02226.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+{
+  "dotnet.defaultSolution": "SustainableMaterialsRecommender.sln",
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+  "appService.defaultWebAppToDeploy": "/subscriptions/1fc16266-3f2a-46a9-b9c6-2ce938e553c8/resourceGroups/SustainableMaterialsRG/providers/Microsoft.Web/sites/SustainableMaterialsAppFrontend",
+  "appService.deploySubpath": "sustainable-materials-recommender-frontend"
+}
