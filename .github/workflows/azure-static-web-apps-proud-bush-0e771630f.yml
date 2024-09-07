@@ -31,7 +31,7 @@ jobs:
           npm install axios
 
       - name: Build
-        run: CI=false npm run build
+        run: CI=false
 
       - name: Build And Deploy
         id: builddeploy
