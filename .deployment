@@ -1,2 +1,3 @@
 [config]
 SCM_DO_BUILD_DURING_DEPLOYMENT=true
+REACT_APP_API_URL=https://sustainablematerialsapp-cbdackd0dgd7cehx.australiaeast-01.azurewebsites.net/

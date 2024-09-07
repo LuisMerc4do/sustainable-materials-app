@@ -18,8 +18,9 @@ const MaterialSearch: React.FC = () => {
 
   const handleSearch = async () => {
     try {
+      const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
       const response = await axios.get(
-        `/api/materials/search?searchTerm=${searchTerm}`
+        `${API_URL}/api/materials/search?searchTerm=${searchTerm}`
       );
       setMaterials(response.data);
     } catch (error) {

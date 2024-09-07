@@ -21,7 +21,9 @@ const MaterialDetails: React.FC = () => {
   useEffect(() => {
     const fetchMaterial = async () => {
       try {
-        const response = await axios.get(`/api/materials/${id}`);
+        const API_URL =
+          process.env.REACT_APP_API_URL || "http://localhost:5000";
+        const response = await axios.get(`${API_URL}/api/materials/${id}`);
         setMaterial(response.data);
       } catch (error) {
         console.error("Error fetching material details:", error);
@@ -42,7 +44,7 @@ const MaterialDetails: React.FC = () => {
       </CardHeader>
       <CardContent>
         <p>
-          <strong>Description:</strong> {material.description}
+          <strong>Description :</strong> {material.description}
         </p>
         <p>
           <strong>Sustainability Score:</strong> {material.sustainabilityScore}

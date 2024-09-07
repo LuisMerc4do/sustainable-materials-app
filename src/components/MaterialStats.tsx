@@ -14,7 +14,9 @@ const MaterialStats: React.FC = () => {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const response = await axios.get("/api/materials/stats");
+        const API_URL =
+          process.env.REACT_APP_API_URL || "http://localhost:5000";
+        const response = await axios.get(`${API_URL}/api/materials/stats`);
         setStats(response.data);
       } catch (error) {
         console.error("Error fetching material stats:", error);
