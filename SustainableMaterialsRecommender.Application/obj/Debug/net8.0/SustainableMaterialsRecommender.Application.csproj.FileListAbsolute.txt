@@ -13,3 +13,4 @@ C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommend
 C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\refint\SustainableMaterialsRecommender.Application.dll
 C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\SustainableMaterialsRecommender.Application.pdb
 C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\ref\SustainableMaterialsRecommender.Application.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.Application\obj\Debug\net8.0\SustainableMaterialsRecommender.Application.sourcelink.json

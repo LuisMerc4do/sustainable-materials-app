@@ -87,3 +87,4 @@ C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommend
 C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.API\obj\Debug\net8.0\SustainableMaterialsRecommender.API.pdb
 C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.API\obj\Debug\net8.0\SustainableMaterialsRecommender.API.genruntimeconfig.cache
 C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.API\obj\Debug\net8.0\ref\SustainableMaterialsRecommender.API.dll
+C:\Users\skill\source\repos\aisustainablematerials\SustainableMaterialsRecommender.API\obj\Debug\net8.0\SustainableMaterialsRecommender.API.sourcelink.json

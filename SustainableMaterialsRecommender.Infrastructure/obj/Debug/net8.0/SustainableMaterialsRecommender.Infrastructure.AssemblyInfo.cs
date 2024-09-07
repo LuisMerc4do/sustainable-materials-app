@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SustainableMaterialsRecommender.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18ff711d0e94447507995f92fb244d2d2d084b91")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6f2c7c8bc09c609ddd522d067e36d0d2d600cd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SustainableMaterialsRecommender.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SustainableMaterialsRecommender.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
