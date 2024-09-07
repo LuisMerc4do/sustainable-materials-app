@@ -3,6 +3,7 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import ThreeDViewer from "./ThreeDViewer";
+import config from "../libs/config";
 
 interface Material {
   id: number;
@@ -21,10 +22,7 @@ const MaterialDetails: React.FC = () => {
   useEffect(() => {
     const fetchMaterial = async () => {
       try {
-        const API_URL = process.env.REACT_APP_API_URL;
-        const response = await axios.get(
-          `https://sustainablematerialsapp-cbdackd0dgd7cehx.australiaeast-01.azurewebsites.net/api/materials/${id}`
-        );
+        const response = await axios.get(`${config.apiUrl}/materials/${id}`);
         setMaterial(response.data);
       } catch (error) {
         console.error("Error fetching material details:", error);

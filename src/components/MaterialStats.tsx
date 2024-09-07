@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import config from "../libs/config";
 
 interface Stats {
   totalMaterials: number;
@@ -14,10 +15,7 @@ const MaterialStats: React.FC = () => {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const API_URL = process.env.REACT_APP_API_URL;
-        const response = await axios.get(
-          `https://sustainablematerialsapp-cbdackd0dgd7cehx.australiaeast-01.azurewebsites.net/api/materials/stats`
-        );
+        const response = await axios.get(`${config.apiUrl}/materials/stats`);
         setStats(response.data);
       } catch (error) {
         console.error("Error fetching material stats:", error);

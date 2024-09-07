@@ -3,6 +3,7 @@ import axios from "axios";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import config from "../libs/config";
 
 interface Material {
   id: number;
@@ -18,9 +19,8 @@ const MaterialSearch: React.FC = () => {
 
   const handleSearch = async () => {
     try {
-      const API_URL = process.env.REACT_APP_API_URL;
       const response = await axios.get(
-        `https://sustainablematerialsapp-cbdackd0dgd7cehx.australiaeast-01.azurewebsites.net/api/materials/search?searchTerm=${searchTerm}`
+        `${config.apiUrl}/materials/search?searchTerm=${searchTerm}`
       );
       setMaterials(response.data);
     } catch (error) {

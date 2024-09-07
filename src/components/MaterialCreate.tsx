@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
 import { Textarea } from "./ui/textarea";
+import config from "../libs/config";
 
 const CreateMaterial: React.FC = () => {
   const navigate = useNavigate();
@@ -27,10 +28,7 @@ const CreateMaterial: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await axios.post(
-        `https://sustainablematerialsapp-cbdackd0dgd7cehx.australiaeast-01.azurewebsites.net/api/materials`,
-        material
-      );
+      await axios.post(`${config.apiUrl}/api/materials`, material);
       navigate("/");
     } catch (error) {
       console.error("Error creating material:", error);
