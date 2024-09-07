@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SustainableMaterialsRecomme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SustainableMaterialsRecommender.Infrastructure", "SustainableMaterialsRecommender.Infrastructure\SustainableMaterialsRecommender.Infrastructure.csproj", "{14DCDB73-812D-42CA-B8E1-71DC9B48E36F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SustainableMaterialsRecommender.UnitTests", "SustainableMaterialsRecommender.UnitTests\SustainableMaterialsRecommender.UnitTests.csproj", "{2F1CCABA-86CC-4035-8FBE-D1B7DCD96338}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
