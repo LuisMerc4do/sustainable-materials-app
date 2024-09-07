@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import config from "../libs/config";
 
-const ConnectionTest = () => {
-  const [status, setStatus] = useState("Loading...");
-  const [error, setError] = useState(null);
+const ConnectionTest: React.FC = () => {
+  const [status, setStatus] = useState<string>("Loading...");
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const testConnection = async () => {
@@ -12,7 +12,7 @@ const ConnectionTest = () => {
         const response = await axios.get(`${config.apiUrl}/healthcheck`);
         setStatus(response.data.message);
       } catch (err) {
-        setError(null);
+        setError("Failed to connect to the backend");
         console.error(err);
       }
     };

@@ -5,6 +5,7 @@ import MaterialDetails from "./components/MaterialDetails";
 import MaterialStats from "./components/MaterialStats";
 import CreateMaterial from "./components/MaterialCreate";
 import { Button } from "./components/ui/button";
+import ConnectionTest from "./components/HealthCheck";
 
 const App: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const App: React.FC = () => {
           <ul className="flex space-x-4">
             <li>
               <Link to="/" className="text-blue-500 hover:text-blue-700">
-                Home
+                <Button>Home</Button>
               </Link>
             </li>
             <li>
@@ -24,7 +25,15 @@ const App: React.FC = () => {
             </li>
             <li>
               <Link to="/create" className="text-blue-500 hover:text-blue-700">
-                Create Material
+                <Button className="text-blue-600">Create Material</Button>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/healthcheck"
+                className="text-blue-500 hover:text-blue-700"
+              >
+                HealthCheck
               </Link>
             </li>
           </ul>
@@ -35,6 +44,7 @@ const App: React.FC = () => {
           <Route path="/material/:id" element={<MaterialDetails />} />
           <Route path="/stats" element={<MaterialStats />} />
           <Route path="/create" element={<CreateMaterial />} />
+          <Route path="/healthcheck" element={<ConnectionTest />} />
         </Routes>
       </div>
     </Router>
