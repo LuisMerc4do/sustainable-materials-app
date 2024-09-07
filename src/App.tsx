@@ -17,7 +17,7 @@ const App: React.FC = () => {
             </li>
             <li>
               <Link to="/stats" className="text-blue-500 hover:text-blue-700">
-                Material Stats
+                Material Stats Test
               </Link>
             </li>
           </ul>
