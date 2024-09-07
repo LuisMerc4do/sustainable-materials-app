@@ -28,7 +28,7 @@ const CreateMaterial: React.FC = () => {
     e.preventDefault();
     try {
       await axios.post(
-        `${process.env.REACT_APP_API_URL}/api/materials`,
+        `https://sustainablematerialsapp-cbdackd0dgd7cehx.australiaeast-01.azurewebsites.net/api/materials`,
         material
       );
       navigate("/");

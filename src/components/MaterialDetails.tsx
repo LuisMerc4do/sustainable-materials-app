@@ -22,7 +22,9 @@ const MaterialDetails: React.FC = () => {
     const fetchMaterial = async () => {
       try {
         const API_URL = process.env.REACT_APP_API_URL;
-        const response = await axios.get(`${API_URL}/api/materials/${id}`);
+        const response = await axios.get(
+          `https://sustainablematerialsapp-cbdackd0dgd7cehx.australiaeast-01.azurewebsites.net/api/materials/${id}`
+        );
         setMaterial(response.data);
       } catch (error) {
         console.error("Error fetching material details:", error);
