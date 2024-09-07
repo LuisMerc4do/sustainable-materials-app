@@ -8,8 +8,14 @@ namespace SustainableMaterialsRecommender.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+
 public class MaterialsController : ControllerBase
 {
+    [HttpGet]
+    public IActionResult Get()
+    {
+        return Ok(new { status = "Healthy", message = "API is running" });
+    }
     private readonly IMaterialService _materialService;
 
     public MaterialsController(IMaterialService materialService)

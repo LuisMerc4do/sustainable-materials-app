@@ -18,9 +18,8 @@ const MaterialSearch: React.FC = () => {
 
   const handleSearch = async () => {
     try {
-      const API_URL = process.env.REACT_APP_API_URL;
       const response = await axios.get(
-        `https://sustainablematerialsapp-cbdackd0dgd7cehx.australiaeast-01.azurewebsites.net/api/materials/search?searchTerm=${searchTerm}`
+        `https://sustainablematerialsbackend-evfxhfbeghczayds.australiasoutheast-01.azurewebsites.net/api/materials/search?searchTerm=${searchTerm}`
       );
       setMaterials(response.data);
     } catch (error) {

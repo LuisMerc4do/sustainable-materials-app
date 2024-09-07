@@ -14,9 +14,8 @@ const MaterialStats: React.FC = () => {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const API_URL = process.env.REACT_APP_API_URL;
         const response = await axios.get(
-          `https://sustainablematerialsapp-cbdackd0dgd7cehx.australiaeast-01.azurewebsites.net/api/materials/stats`
+          `https://sustainablematerialsbackend-evfxhfbeghczayds.australiasoutheast-01.azurewebsites.net/api/materials/stats`
         );
         setStats(response.data);
       } catch (error) {
