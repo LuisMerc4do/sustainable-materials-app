@@ -1,8 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import MaterialSearch from "./components/MaterialSearch";
 import MaterialDetails from "./components/MaterialDetails";
 import MaterialStats from "./components/MaterialStats";
+import CreateMaterial from "./components/MaterialCreate";
 
 const App: React.FC = () => {
   return (
@@ -17,7 +18,12 @@ const App: React.FC = () => {
             </li>
             <li>
               <Link to="/stats" className="text-blue-500 hover:text-blue-700">
-                Material Stats Test
+                Material Stats
+              </Link>
+            </li>
+            <li>
+              <Link to="/create" className="text-blue-500 hover:text-blue-700">
+                Create Material
               </Link>
             </li>
           </ul>
@@ -27,6 +33,7 @@ const App: React.FC = () => {
           <Route path="/" element={<MaterialSearch />} />
           <Route path="/material/:id" element={<MaterialDetails />} />
           <Route path="/stats" element={<MaterialStats />} />
+          <Route path="/create" element={<CreateMaterial />} />
         </Routes>
       </div>
     </Router>
